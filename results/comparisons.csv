@@ -1,0 +1,12 @@
+fusion model,compared with,macroF1 diff,95% CI,fusion right/other wrong,other right/fusion wrong,McNemar p,"meets bar (diff>=0.05, CI>0)"
+LR-early,MLP-text (strongest single),0.069,"[0.001, 0.143]",103,40,1.4e-07,True
+LR-early,LR-image,0.09,"[0.040, 0.139]",122,49,2.3e-08,True
+LR-early,LR-text,0.112,"[0.056, 0.168]",121,37,1.3e-11,True
+LR-late,MLP-text (strongest single),0.072,"[0.026, 0.131]",88,29,4.3e-08,True
+LR-late,LR-image,0.093,"[0.026, 0.155]",115,46,5.3e-08,True
+LR-late,LR-text,0.115,"[0.075, 0.160]",102,22,1.7e-13,True
+MLP-early,MLP-text (strongest single),0.079,"[0.008, 0.152]",115,35,3.8e-11,True
+MLP-early,MLP-image,0.112,"[0.069, 0.158]",133,44,1.4e-11,True
+MLP-late,MLP-text (strongest single),0.122,"[0.068, 0.189]",95,22,5.3e-12,True
+MLP-late,MLP-image,0.155,"[0.109, 0.205]",115,33,7.8e-12,True
+GATED-gated,MLP-text (strongest single),0.034,"[-0.035, 0.111]",102,53,1.0e-04,False
