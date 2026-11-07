@@ -1,0 +1,11 @@
+data/
+cache/
+splits/
+*.npz
+*.tsv
+*.zip
+dedup_splits.csv
+results_FULLSET_DEBUG/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
